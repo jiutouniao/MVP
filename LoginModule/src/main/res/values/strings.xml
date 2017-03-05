@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">LoginModule</string>
+
+    <!--登陆界面-->
+    <string name="login_rem_pwd">记住密码</string>
+    <string name="login_contact">忘记用户名？联系客服</string>
+    <string name="login_forget_pwd">忘记密码？</string>
+    <string name="login_regist">新用户注册</string>
+    <string name="login_rem_acc">记住账号</string>
+    <string name="login_pwd_hint"> 输入密码</string>
+    <string name="login_account_hint"> 输入账号/手机</string>
+
+</resources>

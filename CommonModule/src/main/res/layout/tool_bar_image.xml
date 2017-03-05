@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/com.ssdy.education.mobile.student"
+    android:id="@+id/tool_bar"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/tool_bar_height"
+    android:background="?attr/colorPrimary"
+    android:elevation="1.5dp"
+    android:minHeight="@dimen/tool_bar_height"
+    app:contentInsetLeft="0dp"
+    app:contentInsetRight="0dp"
+    app:contentInsetStart="0dp"
+    app:layout_scrollFlags="scroll|enterAlways"
+    app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+    app:theme="@style/ToolbarTheme">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <!--标题-->
+        <TextView
+            style="@style/text_single_default"
+            android:id="@+id/tv_tool_bar_title"
+            android:textStyle="bold"
+            android:textColor="@color/text_color_gray1"
+            android:textSize="18sp"
+            android:layout_centerInParent="true"
+            android:text="ssss"
+            />
+    </RelativeLayout>
+</android.support.v7.widget.Toolbar>

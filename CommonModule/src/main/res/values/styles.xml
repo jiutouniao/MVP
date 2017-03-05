@@ -1,0 +1,41 @@
+<resources>
+
+    <style name="AppTheme_Common" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <!--<item name="colorAccent">@color/yellow_light</item>-->
+        <item name="actionMenuTextColor">@color/text_color_gray1</item>
+        <item name="android:textSize">@dimen/tool_bar_title_size</item>
+        <!--<item name="android:windowAnimationStyle">@style/ainiActivity</item>-->
+        <!--设置沉浸式-->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="toolbarStyle">@style/ToolbarTheme</item>
+    </style>
+
+
+
+    <!--Toolbar 属性设置-->
+    <style name="ToolbarTheme" parent="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="contentInsetStart">0dp</item><!-- 设置该属性解决空白部分-->
+    </style>
+
+    <!--TextView 单行默认-->
+    <style name="text_single_default">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+    <!--TextView 不限制行数默认-->
+    <style name="text_more_default">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+</resources>
